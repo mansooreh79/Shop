@@ -1,0 +1,36 @@
+.slider {
+  margin-top: 30px;
+  font-family: 'Sintony';
+}
+
+.slider .slide {
+  float: left;
+  width: 22.3%;
+  padding: 2% 0;
+  background: #191f2e;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.slider .slide:hover {
+  background: #151a28;
+  transition: background .3s ease;
+}
+
+.slider .slide a span {
+  color: #c9cbce;
+  margin-top: 22px;
+  display: block;
+}
+
+.slider .slide img {
+  display: block;
+  margin: 0 auto;
+}
+.slider .slide:nth-of-type(2),
+.slider .slide:nth-of-type(3),
+.slider .slide:nth-of-type(4) {
+    margin-left: 3.6%;
+}
+  
